@@ -1,0 +1,19 @@
+<div class="wrapper">
+    <div class="wrapper__inner">
+        <h2>{{title}}</h2>
+        <button class="btn-add-note">Create Note</button>
+        <button class="btn-refresh">Refresh</button>
+        <span class="offline-hint hidden">(offline)</span>
+        <div class="notes"></div>
+        <div class="newNoteDialog dialog hidden">
+            <div class="wrapper__inner">
+                <label for="noteText">The Note:</label>
+                <textarea id="noteText" rows="10" autocomplete="off" placeholder="Your note..."></textarea>
+                <div class="dialog-btn">
+                    <button class="btn-close-dialog">Cancel</button>
+                    <button class="btn-save-note">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
